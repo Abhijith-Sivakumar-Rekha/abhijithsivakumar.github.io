@@ -88,4 +88,17 @@ footer {
     padding: 40px;
     font-size: 0.9rem;
     color: #777;
+
+}
+.project-photo {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.project-photo img {
+    max-width: 1000%; /* Makes it fit the box */
+    height: auto;
+    border-radius: 10px; /* Rounds the corners */
+    border: 3px solid var(--primary); /* Adds an orange border */
+    box-shadow: 0 10px 20px rgba(0,0,0,0.5); /* Adds a shadow */
 }
